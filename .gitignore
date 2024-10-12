@@ -1,0 +1,45 @@
+# Ignore the .vscode folder
+.vscode/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# Ignore data files
+# *.csv
+*.h5
+*.hdf5
+*.pkl
+
+# Ignore logs
+*.log
+
+# Ignore model files
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Ignore configuration files
+*.yaml
+*.yml
+*.json
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
